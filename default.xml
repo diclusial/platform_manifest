@@ -2,13 +2,12 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
+           fetch="https://android-review.googlesource.com/" />
 
-  <remote name="diclusial"
+  <remote  name="diclusial"
            fetch="git://github.com/diclusial/" />
 
-  <remote name="crossbones"
+  <remote  name="crossbones"
            fetch="git://github.com/Crossbones/" />
 
   <default revision="refs/tags/android-4.2.1_r1"
@@ -207,7 +206,7 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="diclusial" revision="greenblue-4.2.1"/>
+  <project path="frameworks/base" name="platform_frameworks_base" remote="diclusial" revision="greenblue-4.2.1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
@@ -265,8 +264,8 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
-  <project path="packages/apps/DeskClock" name="platform_packages_apps_deskclock" remote="diclusial" revision="greenblue-4.2.1"/>
-  <project path="packages/apps/Email" name="platform_packages_apps_email" remote="diclusial" revision="greenblue-4.2.1"/>
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_deskclock" remote="diclusial" revision="greenblue-4.2.1" />
+  <project path="packages/apps/Email" name="platform_packages_apps_email" remote="diclusial" revision="greenblue-4.2.1" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
@@ -283,7 +282,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="diclusial" revision="greenblue-4.2.1"/>
+  <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="diclusial" revision="greenblue-4.2.1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -350,7 +349,6 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
-
   <project path="vendor/akm" name="proprietary_vendor_akm" remote="crossbones" revision="jellybean"/>
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="crossbones" revision="jellybean"/>
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="crossbones" revision="jellybean"/>
