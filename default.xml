@@ -5,8 +5,7 @@
            fetch="git://github.com/diclusial/" />
 
   <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
+           fetch="https://android-review.googlesource.com/" />
 
   <default revision="refs/tags/android-4.2.1_r1.2"
            remote="aosp"
